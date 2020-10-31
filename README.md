@@ -5,7 +5,7 @@ The version used was the 2018 5-core review dataset from all categories.
 The original dataset is over 86 GB, while the sampled version is only 250 MB
 
 ## Installation
-The Spark version used is 3.0.1. \
+The Spark version used is 3.0.1. Download from [here](https://spark.apache.org/downloads.html) \
 Create a Python virtual environment using
 ```
 python -m venv venv
