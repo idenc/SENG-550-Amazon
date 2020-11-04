@@ -16,7 +16,7 @@ source venv/bin/activate
 ```
 on linux
 ```
-venv/bin/activate.bat
+venv/Scripts/activate.bat
 ```
 on Windows
 
