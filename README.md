@@ -10,6 +10,16 @@ Create a Python virtual environment using
 ```
 python -m venv venv
 ```
+activate the virtual environment
+```
+source venv/bin/activate
+```
+on linux
+```
+venv/bin/activate.bat
+```
+on Windows
+
 then install requirements using
 ```
 pip install -r requirements.txt
