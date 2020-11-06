@@ -24,6 +24,10 @@ then install requirements using
 ```
 pip install -r requirements.txt
 ```
+then launch jupyter notebook using
+```
+jupyter notebook
+```
 
 ## Citation:
 **Justifying recommendations using distantly-labeled reviews and fined-grained aspects** \
