@@ -35,3 +35,21 @@ Jianmo Ni, Jiacheng Li, Julian McAuley \
 *Empirical Methods in Natural Language Processing (EMNLP),* 2019
 
 The notebook is based off of [this GitHub repo](https://github.com/noahberhe/Lobbyists4America)
+
+## Databricks Setup
+* Use cluster runtime 6.4
+* Spark config should have: 
+  
+    spark.serializer org.apache.spark.serializer.KryoSerializer
+
+    spark.kryoserializer.buffer.max 1000M
+    
+    spark.databricks.delta.preview.enabled true
+* Install the following libraries:
+  * JohnSnowLabs:spark-nlp:2.4.0 Maven
+  * spark-nlp pypi
+  * wordcloud pypi
+  * nltk pypi
+  * textblob pypi
+  
+Attach the notebook to this cluster to start working on it
