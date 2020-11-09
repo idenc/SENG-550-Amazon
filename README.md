@@ -53,3 +53,5 @@ The notebook is based off of [this GitHub repo](https://github.com/noahberhe/Lob
   * textblob pypi
   
 Attach the notebook to this cluster to start working on it
+
+The data for the notebook is the music.json file.
